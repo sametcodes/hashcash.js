@@ -6,7 +6,7 @@ It provides two functions: `.computeValidHeader` and `.checkValid`.
 
 ```javascript
 const Hashcash = require('./hashcash')
-const hashcash = new Hashcash({resource: "sametcodes", bits: 20});
+const hashcash = new Hashcash({resource: "sametcodes"});
 
 hashcash.computeValidHeader() // 1:20:220127:sametcodes::M5gLmflPN4C18sUv:0000001gSA
 hashcash.checkValid("1:20:220127:sametcodes::M5gLmflPN4C18sUv:0000001gSA") // true
