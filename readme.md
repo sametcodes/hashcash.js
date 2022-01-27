@@ -1,4 +1,4 @@
-Hashcash ― JavaScript implementation
+## Hashcash ― JavaScript implementation
 
 It provides two functions: `.computeValidHeader` and `.checkValid`.
 
